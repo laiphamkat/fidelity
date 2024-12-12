@@ -1,0 +1,65 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+2,Access Investing Resources for Beginners and Retirement,"Navigate to beginner investment resources, explore savings calculators, and access retirement information and insights.","Step 1: Navigate to *
+Step 2: Click on link investingForBeginnersWeLlHelpYouUnderstand -> Navigate to page 'investor education investing beginners#*/*/*'
+Step 3: Click on link investingForBeginnersWeLlHelpYouUnderstand
+Step 4: Click on link savingsCalculatorPlanYourSavingsWhetherFor -> Navigate to page 'financial tool#*/savingscalculator'
+Step 5: Click on link investingForBeginnersWeLlHelpYouUnderstand -> Navigate to page 'investor education investing beginners#*/*/*'
+Step 6: Click on link whatAreMyInvestmentGoalsThereAreManyReason -> Navigate to page 'investor education investing goals#*/*/*'
+Step 7: Hover over link retirementEveryoneSRetirementWillLookDiffere
+Step 8: Click on button goToRetirementPage -> Navigate to page 'retirement information#*/*/*/*'
+Step 9: Click on link retirementIncomeOptions
+Step 10: Hover over div object
+Step 11: Click on link insights -> Navigate to page 'insights#*/*'
+Step 12: Click on link viewInvestorWebcasts
+Step 13: Click on button registerToday -> Navigate to page 'registration page#*/*/webcasts-registration'
+Step 14: Click on link fidelityconnectsLiveWebcastsForFinancialAdvi -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",High,NEW
+4,Filter and Register for Insights and Webcasts,"Navigate to insights library, apply filters, and register for live webcasts on sustainable investing.","Step 1: Navigate to *
+Step 2: Click on link articlesWebcastsPodcastsCheckOutOurArticl -> Navigate to page 'insights library#*/*/*'
+Step 3: Click on button insightCategories (podcasts)
+Step 4: Click on button insightCategories (wellness)
+Step 5: Click on button applyTheChosenFilters
+Step 6: Click on button clearAllFilters
+Step 7: Click on link fidelityconnectsExploringFixedIncomeJoinIns -> Navigate to page 'sustainable investing#*/*/*'
+Step 8: Click on link webcastRegistrationOurLiveInteractiveWebcast -> Navigate to page 'registration page#*/*/webcasts-registration'
+Step 9: Click on link fidelityconnectsLiveWebcastsForFinancialAdvi -> Navigate to page 'investment options#*/*'
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+1,Explore Mutual Funds and Download Information,"Navigate to investor education, explore various mutual funds, and download related information in Excel format.","Step 1: Navigate to */*
+Step 2: Click on link mutualFundsExploreTheWideSpectrumOfAvailabl -> Navigate to page 'investment mutual funds#*/*/*'
+Step 3: Hover over link moneyMarketMutualFundsMoneyMarketFundsAreF
+Step 4: Click on button exploreMoneyMarketMutualFunds -> Navigate to page 'generic page#*/priceandperformance'
+Step 5: Click on button allFidelityFunds
+Step 6: Click on link bsSelect10
+Step 7: Click on button all
+Step 8: Click on link bsSelect22
+Step 9: Click on button f5NlTSeries
+Step 10: Click on link bsSelect313
+Step 11: Click on button all2
+Step 12: Click on link bsSelect41
+Step 13: Click on button downloadXlsx
+Step 14: Click on link aboutUs -> Navigate to page 'informational page#*/aboutus'
+Step 15: Take full page screenshot as checkpoint
+",Low,NEW
+3,Utilize Growth Calculator and Investment Guides,"Use the growth calculator, input personal information, and access guides on saving and investing.","Step 1: Navigate to *
+Step 2: Click on link growthCalculatorFindOutHowMuchYourSavingsW -> Navigate to page 'calculator page#*/growthcalculator'
+Step 3: Click on span object
+Step 4: Click on input dollars
+Step 5: Click on link 5WaysToDitchDebtAndBetterManageYourMoney -> Navigate to page 'investor education ditching debt#*/*/*'
+Step 6: Click on link getStarted
+Step 7: Click on input email
+Step 8: Enter input value in input email
+Step 9: Click on input firstname
+Step 10: Enter input value in input firstname
+Step 11: Click on input lastname
+Step 12: Enter input value in input lastname
+Step 13: Click on select preferredLanguageC
+Step 14: Click on label lblmktoradio2494230
+Step 15: Click on select investortypedescription
+Step 16: Click on button getTheGuide
+Step 17: Click on input investoroptin
+Step 18: Click on button getTheGuide
+Step 19: Click on link theDifferenceBetweenSavingAndInvesting -> Navigate to page 'investor education save or invest#*/*/*'
+Step 20: Take full page screenshot as checkpoint
+",Trivial,NEW
