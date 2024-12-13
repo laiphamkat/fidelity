@@ -1,0 +1,90 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+3,Search and Add Investment Funds to Watchlist,"Navigate to the investment finder, select various fund options, search for specific funds, and add them to the watchlist.","Step 1: Navigate to */*/*
+Step 2: Click on etfSelectionCheckbox
+Step 3: Click on managedPortfoliosCheckbox
+Step 4: Click on fundSearchInput
+Step 5: Enter input value in fundSearchInput
+Step 6: Click on item InvestmentListItem
+Step 7: Enter input value in fundSearchInput
+Step 8: Click on fidelityAdvantageBitcoinETFFundOption
+Step 9: Click on span AssetClassLabel
+Step 10: Click on md optionSelect (OptionSelect14)
+Step 11: Click on md Backdrop
+Step 12: Click on span AssetCategoryLabel
+Step 13: Click on md optionSelect (OptionSelect27)
+Step 14: Click on md Backdrop
+Step 15: Click on span GeographicFocusLabel
+Step 16: Click on md optionSelect (OptionSelect43)
+Step 17: Click on md Backdrop
+Step 18: Click on viewFundsLink
+Step 19: Click on addToWatchlistButton
+Step 20: Click on closeButton
+Step 21: Click on fidelityAdvantageEtherETF -> Navigate to page 'product page#*/products/*/*'
+Step 22: Take full page screenshot as checkpoint
+",High,NEW
+2,Explore Growth Calculator with Investment Options,"Navigate to the growth calculator, adjust initial investment and contributions, and view the resulting growth graph.","Step 1: Navigate to */*
+Step 2: Hover over link GrowthCalculator
+Step 3: Click on tryItOutButton2 -> Navigate to page 'calculator page#*/growthcalculator'
+Step 4: Click on initialInvestmentSlider
+Step 5: Click on div slider (Slider1)
+Step 6: Click on div slider (Slider3)
+Step 7: Click on rateOfReturnInput
+Step 8: Enter input value in rateOfReturnInput
+Step 9: Click on additionalContributionsInput
+Step 10: Click on div slider (Slider2)
+Step 11: Click on div slider (Slider4)
+Step 12: Enter input value in additionalContributionsInput
+Step 13: Click on canvas GraphDemo
+Step 14: Click on contributionFrequencyDropdown
+Step 15: Click on nominalDollarsOption
+Step 16: Click on nominalDollarsOption2 -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",Medium,NEW
+4,Complete Retirement Calculator with User Financial Information,"Navigate to the retirement calculator, input various financial details, and view projected income results.","Step 1: Navigate to */retirementcalculator
+Step 2: Click on input userFinancialInfo (UserAge)
+Step 3: Enter input value in input userFinancialInfo (UserAge)
+Step 4: Click on input userFinancialInfo (UserAnnualIncome)
+Step 5: Enter input value in input userFinancialInfo (UserAnnualIncome)
+Step 6: Click on input userFinancialInfo (UserRetirementSavings)
+Step 7: Enter input value in input userFinancialInfo (UserRetirementSavings)
+Step 8: Click on main MyPlanMain
+Step 9: Click on input userFinancialInfo (UserMonthlySavings)
+Step 10: Enter input value in input userFinancialInfo (UserMonthlySavings)
+Step 11: Click on link navigation (Next)
+Step 12: Click on input userFinancialInfo (UserIncomeOther)
+Step 13: Click on input userFinancialInfo (UserIncomeOther)
+Step 14: Enter input value in input userFinancialInfo (UserIncomeOther)
+Step 15: Click on link navigation (Next2)
+Step 16: Click on div UserInvestmentStyleSlider
+Step 17: Click on link navigation (Next2)
+Step 18: Click on div UserRequiredIncomeSlider
+Step 19: Click on link navigation (SeeMyResults)
+Step 20: Click on resultsViewSelect
+Step 21: Click on projectedIncomeTab
+Step 22: Click on startOverButton -> Navigate to page ''
+Step 23: Take full page screenshot as checkpoint
+",Low,NEW
+1,Navigate and Use Savings Calculator for Vacation Goals,"Access the savings calculator, set a vacation goal, input savings amounts, and adjust parameters to see the impact on savings.","Step 1: Navigate to *
+Step 2: Click on toolsAndCalculatorsLink -> Navigate to page 'financial tools#*/*'
+Step 3: Hover over link SavingsCalculator
+Step 4: Click on tryItOutButton -> Navigate to page 'financial tool#*/savingscalculator'
+Step 5: Click on vacationGoalToggle
+Step 6: Click on button navigationOption (Next)
+Step 7: Click on goalNameInput
+Step 8: Enter input value in goalNameInput
+Step 9: Click on button navigationOption (Next2)
+Step 10: Click on input savedAmount (SaveAmount)
+Step 11: Enter input value in input savedAmount (SaveAmount)
+Step 12: Click on div QuestionContent
+Step 13: Enter input value in input savedAmount (SaveAmount)
+Step 14: Click on button navigationOption (Next3)
+Step 15: Click on input savedAmount (AlreadySavedAmount)
+Step 16: Enter input value in input savedAmount (AlreadySavedAmount)
+Step 17: Click on button navigationOption (Next4)
+Step 18: Click on button navigationOption (SelectOption)
+Step 19: Click on timeHorizonOptionThreeYears
+Step 20: Click on button navigationOption (SeeResults)
+Step 21: Click on increaseMonthlySavingsButton
+Step 22: Click on increaseMonthlySavingsButton -> Navigate to page ''
+Step 23: Take full page screenshot as checkpoint
+",Trivial,NEW

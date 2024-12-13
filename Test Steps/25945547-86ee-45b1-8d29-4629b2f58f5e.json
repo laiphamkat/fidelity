@@ -1,0 +1,27 @@
+{
+    "steps": [
+        "step 1: Navigate to *",
+        "step 2: Click on toolsAndCalculatorsLink -> Navigate to page 'financial tools#*/*'",
+        "step 3: Hover over link SavingsCalculator",
+        "step 4: Click on tryItOutButton -> Navigate to page 'financial tool#*/savingscalculator'",
+        "step 5: Click on vacationGoalToggle",
+        "step 6: Click on button navigationOption (Next)",
+        "step 7: Click on goalNameInput",
+        "step 8: Enter input value in goalNameInput",
+        "step 9: Click on button navigationOption (Next2)",
+        "step 10: Click on input savedAmount (SaveAmount)",
+        "step 11: Enter input value in input savedAmount (SaveAmount)",
+        "step 12: Click on div QuestionContent",
+        "step 13: Enter input value in input savedAmount (SaveAmount)",
+        "step 14: Click on button navigationOption (Next3)",
+        "step 15: Click on input savedAmount (AlreadySavedAmount)",
+        "step 16: Enter input value in input savedAmount (AlreadySavedAmount)",
+        "step 17: Click on button navigationOption (Next4)",
+        "step 18: Click on button navigationOption (SelectOption)",
+        "step 19: Click on timeHorizonOptionThreeYears",
+        "step 20: Click on button navigationOption (SeeResults)",
+        "step 21: Click on increaseMonthlySavingsButton",
+        "step 22: Click on increaseMonthlySavingsButton -> Navigate to page ''",
+        "step 23: Take full page screenshot as checkpoint"
+    ]
+}
