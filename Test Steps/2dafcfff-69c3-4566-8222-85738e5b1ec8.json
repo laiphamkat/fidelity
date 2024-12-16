@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to */*",
+        "step 2: Click on hideLegalButton",
+        "step 3: Click on button financialMetrics (Performance)",
+        "step 4: Click on button financialMetrics (Price) -> Navigate to page ''",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}
