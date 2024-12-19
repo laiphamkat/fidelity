@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to */*",
+        "step 2: Click on fundsDropdown",
+        "step 3: Click on link performanceCategories (category)",
+        "step 4: Click on categoryDropdown",
+        "step 5: Click on link performanceCategories (funds)",
+        "step 6: Click on viewFundButton -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

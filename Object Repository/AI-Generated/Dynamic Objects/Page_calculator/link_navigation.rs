@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>javascript:void(0);</value>
-        <webElementGuid>ea581d8a-0537-4ce3-a991-71b24b2070b8</webElementGuid>
+        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Next</value>
-        <webElementGuid>ea581d8a-0537-4ce3-a991-71b24b2070b8</webElementGuid>
+        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

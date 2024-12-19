@@ -36,7 +36,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/taxcalculator/</value>
-        <webElementGuid>ea581d8a-0537-4ce3-a991-71b24b2070b8</webElementGuid>
+        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
         <value>Tax calculator
         
         Estimate your year-end tax balance and see your tax savings when you change your RRSP contribution.</value>
-        <webElementGuid>ea581d8a-0537-4ce3-a991-71b24b2070b8</webElementGuid>
+        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

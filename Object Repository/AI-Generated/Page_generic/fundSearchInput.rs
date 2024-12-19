@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>listing_search</value>
-        <webElementGuid>ea581d8a-0537-4ce3-a991-71b24b2070b8</webElementGuid>
+        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>name</name>
         <type>Main</type>
         <value>text-filter</value>
-        <webElementGuid>ea581d8a-0537-4ce3-a991-71b24b2070b8</webElementGuid>
+        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
         <name>title</name>
         <type>Main</type>
         <value>Fund name, Fund code, Ticker</value>
-        <webElementGuid>ea581d8a-0537-4ce3-a991-71b24b2070b8</webElementGuid>
+        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -58,6 +58,6 @@
         <name>type</name>
         <type>Main</type>
         <value>text</value>
-        <webElementGuid>ea581d8a-0537-4ce3-a991-71b24b2070b8</webElementGuid>
+        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
