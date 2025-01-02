@@ -28,7 +28,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/investor-education/investing-goals/life-experiences/</value>
-        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
+        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -40,6 +40,6 @@
         Your current financial situation isn’t the only thing to consider. Your plan should consider future possibilities and their expenses.
         
         View all</value>
-        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
+        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

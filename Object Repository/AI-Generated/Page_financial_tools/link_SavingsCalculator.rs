@@ -28,7 +28,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/savingscalculator/</value>
-        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
+        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -40,6 +40,6 @@
         Plan your savings — whether for education, retirement, or every moment in between.
         
         Try it out</value>
-        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
+        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

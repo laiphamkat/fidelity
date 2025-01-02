@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>legal-disclaimers-watchlist-trigger</value>
-        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
+        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Hide Legal</value>
-        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
+        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

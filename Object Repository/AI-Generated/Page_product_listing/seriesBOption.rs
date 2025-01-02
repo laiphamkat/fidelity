@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>bs-select-2-1</value>
-        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
+        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Series B</value>
-        <webElementGuid>8bf753f8-7374-4816-bc26-0f7ef7e36afb</webElementGuid>
+        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
