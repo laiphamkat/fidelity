@@ -36,7 +36,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/investor-education/start-investing/</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
         <value>How do I start investing?
         
         Are you ready to start investing? We can help answer your important questions.</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

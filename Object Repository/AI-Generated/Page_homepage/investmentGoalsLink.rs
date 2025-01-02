@@ -36,7 +36,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/investor-education/investing-goals/</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
         <value>What are my investment goals?
         
         There are many reasons to invest: education, retirement, vacation, large purchases and more. What are yours?</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

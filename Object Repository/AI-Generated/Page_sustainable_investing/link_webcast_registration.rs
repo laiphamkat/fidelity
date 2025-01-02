@@ -36,7 +36,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/insights/webcasts-registration/</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
         <value>Webcast registration
         
         Our live, interactive webcasts give you insights and information from Fidelity subject-matter experts.</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

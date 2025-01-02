@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>bs-select-3-13</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>I5 (ISC) T-Series</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

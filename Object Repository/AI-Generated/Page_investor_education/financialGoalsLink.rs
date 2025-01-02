@@ -38,7 +38,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/accelerate-your-dreams/</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         They can help you keep in mind the time horizon over which you are investing, and give you a sense of purpose while investing.
         
         How do I stay ahead of all the financial noise?</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,24 @@
+{
+    "steps": [
+        "step 1: Navigate to *",
+        "step 2: Click on link growth calculator -> Navigate to page 'calculator page#*/growthcalculator'",
+        "step 3: Click on nominalDollarsOption22",
+        "step 4: Click on input nominalDollars (NominalDollars2)",
+        "step 5: Click on link years -> Navigate to page 'investor education ditching debt#*/*/*'",
+        "step 6: Click on link get started",
+        "step 7: Click on input email",
+        "step 8: Enter input value in input email2",
+        "step 9: Click on textbox first name",
+        "step 10: Enter input value in textbox first name2",
+        "step 11: Click on textbox last name",
+        "step 12: Enter input value in textbox last name2",
+        "step 13: Click on combobox preferred language",
+        "step 14: Click on role radio",
+        "step 15: Click on combobox description",
+        "step 16: Click on button get the guide",
+        "step 17: Click on checkbox consent",
+        "step 18: Click on button get the guide",
+        "step 19: Click on link editorial card -> Navigate to page 'investor education save or invest#*/*/*'",
+        "step 20: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "steps": [
+        "step 1: Navigate to */taxsmartcalculator",
+        "step 2: Click on addFundsButton",
+        "step 3: Click on fundNameInput2",
+        "step 4: Enter input value in fundNameInput22",
+        "step 5: Click on closeDialogButton",
+        "step 6: Click on taxSmartCalculatorLink",
+        "step 7: Click on addFundsButton",
+        "step 8: Click on closeDialogButton2",
+        "step 9: Click on investmentFinderLink -> Navigate to page 'investment finder#*/*/*'",
+        "step 10: Click on taxSmartCalculatorLink -> Navigate to page 'calculator page#*/taxsmartcalculator'",
+        "step 11: Click on addFundsButton",
+        "step 12: Click on closeDialogButton2",
+        "step 13: Click on monthlyPreTaxCashFlow2",
+        "step 14: Click on monthlyPreTaxCashFlow22",
+        "step 15: Click on investmentInTSeries",
+        "step 16: Click on addFundsButton",
+        "step 17: Click on categorySelectElement",
+        "step 18: Click on fundNameInput23",
+        "step 19: Enter input value in fundNameInput24",
+        "step 20: Click on fidelityBalancedClassPortfolioCheckbox",
+        "step 21: Click on addSelectedFundsButton",
+        "step 22: Click on fundAllocationPercentageInput",
+        "step 23: Enter input value in fundAllocationPercentageInput2",
+        "step 24: Click on taxProvinceSelector",
+        "step 25: Click on calculateButton",
+        "step 26: Take full page screenshot as checkpoint"
+    ]
+}

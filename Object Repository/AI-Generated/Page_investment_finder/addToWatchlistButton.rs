@@ -34,6 +34,6 @@
         <name>href</name>
         <type>Main</type>
         <value>javascript:void(0);</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

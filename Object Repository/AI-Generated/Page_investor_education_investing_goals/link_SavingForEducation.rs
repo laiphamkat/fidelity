@@ -28,7 +28,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/investor-education/investing-goals/saving-for-education/</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -40,6 +40,6 @@
         The cost of post-secondary education in Canada is rising. Help make sure the children in your life can pursue the education they want.
         
         View all</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

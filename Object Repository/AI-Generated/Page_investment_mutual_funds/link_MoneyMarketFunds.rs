@@ -32,7 +32,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/en/priceandperformance/?_charset_=UTF-8&amp;text-filter=money%20ma&amp;category=&amp;series=&amp;sales-option=&amp;currency=&amp;view=AG</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -48,6 +48,6 @@
         Typical length of investment: Short to medium term.
         
         Explore funds</value>
-        <webElementGuid>d1407254-4af5-4997-8f67-29f958844523</webElementGuid>
+        <webElementGuid>96845374-342c-495e-bd7d-ab96461fdae0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
