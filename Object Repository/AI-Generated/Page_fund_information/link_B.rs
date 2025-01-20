@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/content/dam/fidelity/en/documents/fund-facts/caa/FF_CAA_B_en.pdf</value>
-        <webElementGuid>86ff7c32-aad1-4b36-b36c-efe219fdf365</webElementGuid>
+        <webElementGuid>6fcceb1f-84a2-489e-ba24-12a7049369fa</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>id</name>
         <type>Main</type>
         <value>fund-fact-dl</value>
-        <webElementGuid>86ff7c32-aad1-4b36-b36c-efe219fdf365</webElementGuid>
+        <webElementGuid>6fcceb1f-84a2-489e-ba24-12a7049369fa</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>title</name>
         <type>Main</type>
         <value>fund facts for series B of fund Canadian Asset Allocation</value>
-        <webElementGuid>86ff7c32-aad1-4b36-b36c-efe219fdf365</webElementGuid>
+        <webElementGuid>6fcceb1f-84a2-489e-ba24-12a7049369fa</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

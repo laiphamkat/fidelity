@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to */*/*",
+        "step 2: Click on checkbox etfs5",
+        "step 3: Click on checkbox managed portfolios5",
+        "step 4: Click on combobox fund name input",
+        "step 5: Enter input value in combobox fund name input",
+        "step 6: Click on item object",
+        "step 7: Enter input value in combobox fund name input",
+        "step 8: Click on item option (Option2)",
+        "step 9: Click on span object",
+        "step 10: Click on md option (Option)",
+        "step 11: Click on md object",
+        "step 12: Click on span object2",
+        "step 13: Click on md option (Option2)",
+        "step 14: Click on md object",
+        "step 15: Click on span geographicFocusLabel",
+        "step 16: Click on md option (Option3)",
+        "step 17: Click on md object",
+        "step 18: Click on link view funds",
+        "step 19: Click on link add to watchlist",
+        "step 20: Click on button close",
+        "step 21: Click on link fund name tag -> Navigate to page 'product listing#*/products/*/*'",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,846 @@
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import truetest.custom.TrueTestScripts
+
+def reportLocation = RunConfiguration.getReportFolder()
+
+'Initialize test session: Open browser and set view port'
+
+@com.kms.katalon.core.annotation.SetUp
+def setup() {
+	WebUI.openBrowser('')
+	WebUI.setViewPortSize(1920, 1080)	
+}
+
+"Step 1: Navigate to */*/*"
+
+TrueTestScripts.navigate("${GlobalVariable.path_param_1}/${GlobalVariable.path_param_2}/${GlobalVariable.path_param_3}")
+
+"Step 2: Click on md ETFs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ETFs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 2-Click on md ETFs2.png')
+
+"Step 3: Click on checkbox product selection etfs"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 3-Click on checkbox product selection etfs.png')
+
+"Step 4: Click on checkbox etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 4-Click on checkbox etfs2.png')
+
+"Step 5: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 5-Click on checkbox product selection2.png')
+
+"Step 6: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 6-Click on checkbox product selection etfs2.png')
+
+"Step 7: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 7-Click on checkbox product selection2.png')
+
+"Step 8: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 8-Click on checkbox product selection etfs2.png')
+
+"Step 9: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 9-Click on checkbox product selection2.png')
+
+"Step 10: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 10-Click on checkbox product selection etfs2.png')
+
+"Step 11: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 11-Click on checkbox product selection2.png')
+
+"Step 12: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 12-Click on checkbox product selection etfs2.png')
+
+"Step 13: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 13-Click on checkbox product selection2.png')
+
+"Step 14: Click on checkbox etfs3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 14-Click on checkbox etfs3.png')
+
+"Step 15: Click on checkbox etfs4"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs4'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 15-Click on checkbox etfs4.png')
+
+"Step 16: Click on checkbox product selection3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 16-Click on checkbox product selection3.png')
+
+"Step 17: Click on checkbox etfs4"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs4'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 17-Click on checkbox etfs4.png')
+
+"Step 18: Click on checkbox product selection3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 18-Click on checkbox product selection3.png')
+
+"Step 19: Click on checkbox etfs4"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs4'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 19-Click on checkbox etfs4.png')
+
+"Step 20: Click on checkbox product selection3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 20-Click on checkbox product selection3.png')
+
+"Step 21: Click on checkbox etfs4"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs4'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 21-Click on checkbox etfs4.png')
+
+"Step 22: Click on checkbox product selection3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 22-Click on checkbox product selection3.png')
+
+"Step 23: Click on checkbox etfs4"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs4'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 23-Click on checkbox etfs4.png')
+
+"Step 24: Click on checkbox product selection3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 24-Click on checkbox product selection3.png')
+
+"Step 25: Click on checkbox etfs4"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs4'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 25-Click on checkbox etfs4.png')
+
+"Step 26: Click on checkbox product selection3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 26-Click on checkbox product selection3.png')
+
+"Step 27: Click on checkbox managed portfolios5"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios5'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 27-Click on checkbox managed portfolios5.png')
+
+"Step 28: Click on checkbox managed portfolios6"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios6'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 28-Click on checkbox managed portfolios6.png')
+
+"Step 29: Click on checkbox managed portfolios7"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios7'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 29-Click on checkbox managed portfolios7.png')
+
+"Step 30: Click on checkbox managed portfolios8"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios8'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 30-Click on checkbox managed portfolios8.png')
+
+"Step 31: Click on checkbox product selection etfs"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 31-Click on checkbox product selection etfs.png')
+
+"Step 32: Click on checkbox etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 32-Click on checkbox etfs2.png')
+
+"Step 33: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 33-Click on checkbox product selection2.png')
+
+"Step 34: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 34-Click on checkbox product selection etfs2.png')
+
+"Step 35: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 35-Click on checkbox product selection2.png')
+
+"Step 36: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 36-Click on checkbox product selection etfs2.png')
+
+"Step 37: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 37-Click on checkbox product selection2.png')
+
+"Step 38: Click on md ETFs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ETFs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 38-Click on md ETFs2.png')
+
+"Step 39: Click on checkbox product selection etfs3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 39-Click on checkbox product selection etfs3.png')
+
+"Step 40: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 40-Click on checkbox product selection etfs2.png')
+
+"Step 41: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 41-Click on checkbox product selection2.png')
+
+"Step 42: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 42-Click on checkbox product selection etfs2.png')
+
+"Step 43: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 43-Click on checkbox product selection2.png')
+
+"Step 44: Click on checkbox product selection etfs2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 44-Click on checkbox product selection etfs2.png')
+
+"Step 45: Click on checkbox product selection2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 45-Click on checkbox product selection2.png')
+
+"Step 46: Click on checkbox etfs3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_etfs3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 46-Click on checkbox etfs3.png')
+
+"Step 47: Click on checkbox managed portfolios5"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios5'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 47-Click on checkbox managed portfolios5.png')
+
+"Step 48: Click on checkbox managed portfolios6"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios6'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 48-Click on checkbox managed portfolios6.png')
+
+"Step 49: Click on checkbox managed portfolios7"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios7'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 49-Click on checkbox managed portfolios7.png')
+
+"Step 50: Click on checkbox managed portfolios9"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios9'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 50-Click on checkbox managed portfolios9.png')
+
+"Step 51: Click on checkbox managed portfolios10"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios10'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 51-Click on checkbox managed portfolios10.png')
+
+"Step 52: Click on checkbox managed portfolios8"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios8'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 52-Click on checkbox managed portfolios8.png')
+
+"Step 53: Click on checkbox managed portfolios7"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios7'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 53-Click on checkbox managed portfolios7.png')
+
+"Step 54: Click on checkbox managed portfolios8"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios8'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 54-Click on checkbox managed portfolios8.png')
+
+"Step 55: Click on checkbox managed portfolios7"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios7'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 55-Click on checkbox managed portfolios7.png')
+
+"Step 56: Click on checkbox managed portfolios8"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios8'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 56-Click on checkbox managed portfolios8.png')
+
+"Step 57: Click on checkbox managed portfolios7"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios7'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 57-Click on checkbox managed portfolios7.png')
+
+"Step 58: Click on checkbox managed portfolios8"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios8'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 58-Click on checkbox managed portfolios8.png')
+
+"Step 59: Click on checkbox managed portfolios7"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios7'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 59-Click on checkbox managed portfolios7.png')
+
+"Step 60: Click on checkbox managed portfolios8"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios8'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 60-Click on checkbox managed portfolios8.png')
+
+"Step 61: Click on checkbox managed portfolios7"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios7'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 61-Click on checkbox managed portfolios7.png')
+
+"Step 62: Click on checkbox managed portfolios11"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios11'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 62-Click on checkbox managed portfolios11.png')
+
+"Step 63: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 63-Click on md ManagedPortfolios3.png')
+
+"Step 64: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 64-Click on checkbox managed portfolios2.png')
+
+"Step 65: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 65-Click on md ManagedPortfolios3.png')
+
+"Step 66: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 66-Click on checkbox managed portfolios2.png')
+
+"Step 67: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 67-Click on md ManagedPortfolios3.png')
+
+"Step 68: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 68-Click on checkbox managed portfolios2.png')
+
+"Step 69: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 69-Click on md ManagedPortfolios3.png')
+
+"Step 70: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 70-Click on checkbox managed portfolios2.png')
+
+"Step 71: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 71-Click on md ManagedPortfolios3.png')
+
+"Step 72: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 72-Click on checkbox managed portfolios2.png')
+
+"Step 73: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 73-Click on md ManagedPortfolios3.png')
+
+"Step 74: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 74-Click on checkbox managed portfolios2.png')
+
+"Step 75: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 75-Click on md ManagedPortfolios3.png')
+
+"Step 76: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 76-Click on checkbox managed portfolios2.png')
+
+"Step 77: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 77-Click on md ManagedPortfolios3.png')
+
+"Step 78: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 78-Click on checkbox managed portfolios2.png')
+
+"Step 79: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 79-Click on md ManagedPortfolios3.png')
+
+"Step 80: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 80-Click on checkbox managed portfolios2.png')
+
+"Step 81: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 81-Click on md ManagedPortfolios3.png')
+
+"Step 82: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 82-Click on checkbox managed portfolios2.png')
+
+"Step 83: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 83-Click on md ManagedPortfolios3.png')
+
+"Step 84: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 84-Click on checkbox managed portfolios2.png')
+
+"Step 85: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 85-Click on md ManagedPortfolios3.png')
+
+"Step 86: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 86-Click on checkbox managed portfolios2.png')
+
+"Step 87: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 87-Click on md ManagedPortfolios3.png')
+
+"Step 88: Click on checkbox product selection etfs4"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_product_selection_etfs4'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 88-Click on checkbox product selection etfs4.png')
+
+"Step 89: Click on checkbox managed portfolios12"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios12'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 89-Click on checkbox managed portfolios12.png')
+
+"Step 90: Click on checkbox managed portfolios10"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios10'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 90-Click on checkbox managed portfolios10.png')
+
+"Step 91: Click on checkbox managed portfolios11"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios11'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 91-Click on checkbox managed portfolios11.png')
+
+"Step 92: Click on md ManagedPortfolios3"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/md_ManagedPortfolios3'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 92-Click on md ManagedPortfolios3.png')
+
+"Step 93: Click on checkbox managed portfolios2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_finder/checkbox_managed_portfolios2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 93-Click on checkbox managed portfolios2.png')
+
+"Step 94: Click on link welcomeMessage (WelcomeToFidelity2) -> Navigate to page 'homepage#*'"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_investment_finder/link_welcomeMessage'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 94-Click on link welcomeMessage WelcomeToFidelity2 - Navigate to page homepage.png')
+
+"Step 95: Click on link etfOptions (ETFsLookAtOurMixOf2) -> Navigate to page 'investment etfs#*/*/*'"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_homepage/link_etfOptions'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 95-Click on link etfOptions ETFsLookAtOurMixOf2 - Navigate to page investment etfs.png')
+
+"Step 96: Click on link search by fund name -> Navigate to page 'generic page#*/priceandperformance'"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_etfs/link_search_by_fund_name'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 96-Click on link search by fund name - Navigate to page generic pagepriceandperformance.png')
+
+"Step 97: Click on textbox search input"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/priceandperformance?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_generic_page/textbox_search_input'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 97-Click on textbox search input.png')
+
+"Step 98: Click on textbox search input"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/priceandperformance?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_generic_page/textbox_search_input'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 98-Click on textbox search input.png')
+
+"Step 99: Enter input value in textbox search input"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/priceandperformance?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.setText(findTestObject('AI-Generated/Page_generic_page/textbox_search_input'), textbox_search_input)
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 99-Enter input value in textbox search input.png')
+
+"Step 100: Click on div Section"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/priceandperformance?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_generic_page/div_Section'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 100-Click on div Section.png')
+
+"Step 101: Click on combobox all fidelity funds2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/priceandperformance?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_generic_page/combobox_all_fidelity_funds2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 101-Click on combobox all fidelity funds2.png')
+
+"Step 102: Click on option alternative funds"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/priceandperformance?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_generic_page/option_alternative_funds'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 102-Click on option alternative funds.png')
+
+"Step 103: Click on button download xlsx2 -> Navigate to page ''"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/priceandperformance?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_generic_page/button_download_xlsx2'))
+
+WebUI.takeScreenshot(reportLocation + '/TC18/Step 103-Click on button download xlsx2 - Navigate to page .png')
+
+"Step 104: Take full page screenshot as checkpoint"
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC18-Detailed ETF Selection and Fund Search_visual_checkpoint')
+
+'Terminate test session: Close browser'
+
+@com.kms.katalon.core.annotation.TearDown
+def teardown() {
+	WebUI.closeBrowser()
+}

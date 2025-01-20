@@ -1,0 +1,24 @@
+{
+    "steps": [
+        "step 1: Navigate to */*/*",
+        "step 2: Click on link welcomeMessage (WelcomeToFidelity) -> Navigate to page 'homepage#*'",
+        "step 3: Click on link investment goals -> Navigate to page 'investor education investing goals#*/*/*'",
+        "step 4: Hover over link Retirement",
+        "step 5: Click on button viewAllInvestmentOptions (ViewAllRetirement) -> Navigate to page 'investing goals#*/*/*/*'",
+        "step 6: Click on link proxy voting -> Navigate to page 'generic proxy#*/proxy'",
+        "step 7: Click on article object",
+        "step 8: Click on article object",
+        "step 9: Click on div core",
+        "step 10: Click on article object",
+        "step 11: Click on div GuidelinesGlossary",
+        "step 12: Click on div core",
+        "step 13: Click on item Search",
+        "step 14: Click on button search",
+        "step 15: Click on textbox search",
+        "step 16: Enter input value in textbox search",
+        "step 17: Click on div CloseSubmitSearch",
+        "step 18: Click on button close",
+        "step 19: Click on article object -> Navigate to page ''",
+        "step 20: Take full page screenshot as checkpoint"
+    ]
+}

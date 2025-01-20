@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to */retirementcalculator",
+        "step 2: Enter user financial data multiple times in forms",
+        "step 3: Navigate and enter user financial data in forms",
+        "step 4: Click on div UserInvestmentStyle",
+        "step 5: Click on link navigation (Next)",
+        "step 6: Click on div userInputs (UserRequiredIncome)",
+        "step 7: Click on link navigation (SeeMyResults)",
+        "step 8: Click on combobox results view",
+        "step 9: Select option with input value from combobox results view",
+        "step 10: Click on link projected income",
+        "step 11: Click on link back btn -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}
