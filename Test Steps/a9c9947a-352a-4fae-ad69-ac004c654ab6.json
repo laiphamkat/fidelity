@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to *",
+        "step 2: Enter input value in input Search",
+        "step 3: Enter input value in input Search",
+        "step 4: Click on button SubmitSearch -> Navigate to page 'search results#content/*/*/search-results.html'",
+        "step 5: Click on atomic object -> Navigate to page 'product#*/products/*'",
+        "step 6: Click on link GlobalInvestmentNetwork -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}
