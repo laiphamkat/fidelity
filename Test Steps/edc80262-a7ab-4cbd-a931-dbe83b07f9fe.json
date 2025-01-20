@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to */*",
+        "step 2: Hover over link GrowthCalculator",
+        "step 3: Click on button try it out -> Navigate to page 'calculator page#*/growthcalculator'",
+        "step 4: Click on slider initial investment",
+        "step 5: Click on div sliderInputs (sliderInputs)",
+        "step 6: Click on div sliderInputs (sliderInputs2)",
+        "step 7: Click on input rate of return",
+        "step 8: Enter input value in input rate of return",
+        "step 9: Click on input additional contributions",
+        "step 10: Click on div sliderInputs (sliderInputs3)",
+        "step 11: Click on div sliderInputs (sliderInputs4)",
+        "step 12: Enter input value in input additional contributions",
+        "step 13: Click on canvas GraphDemo",
+        "step 14: Click on combobox contribution frequency",
+        "step 15: Select option with input value from combobox contribution frequency",
+        "step 16: Click on span currencyDisplay (DollarAmount)",
+        "step 17: Click on input currencyInput (NominalDollars) -> Navigate to page ''",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}
