@@ -1,0 +1,33 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Add Fund to Watchlist from Investment ETFs Page,"Navigate to the homepage, access the ETFs section, search for a fund, add it to the watchlist, and verify the success message.","Step 1: Navigate to *
+Step 2: Click on link ETFs -> Navigate to page 'investment etfs#*/*/*'
+Step 3: Click on link SearchByFund -> Navigate to page 'generic#*/priceandperformance'
+Step 4: Hover over tr object
+Step 5: Enter input value in input FundNameFilter
+Step 6: Click on button AddToWatchlist
+Step 7: Click on div SuccessMessage
+Step 8: Click on button Close -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+2,Complete Retirement Calculator and Generate PDF Report,"Access the retirement calculator, input financial details across multiple sections, generate a PDF report, and return to the homepage.","Step 1: Navigate to */retirementcalculator
+Step 2: Click on input userFinancialDetails (UserAge)
+Step 3: Enter input value in input userFinancialDetails (UserAge)
+Step 4: Click on input userFinancialDetails (UserAnnualIncome)
+Step 5: Enter input value in input userFinancialDetails (UserAnnualIncome)
+Step 6: Click on input userFinancialDetails (UserRetirementSavings)
+Step 7: Enter input value in input userFinancialDetails (UserRetirementSavings)
+Step 8: Click on div SavingsInfo
+Step 9: Click on input userFinancialDetails (UserMonthlySavings)
+Step 10: Enter input value in input userFinancialDetails (UserMonthlySavings)
+Step 11: Click on link navigationArrows (NextArrow)
+Step 12: Click on input userFinancialDetails (UserIncomeOther)
+Step 13: Enter input value in input userFinancialDetails (UserIncomeOther)
+Step 14: Click on link navigationArrows (NextArrow)
+Step 15: Adjust div UserInvestmentStyle by input value
+Step 16: Click on link navigationArrows (NextArrow)
+Step 17: Adjust div UserRequiredIncome by input value
+Step 18: Click on link navigationArrows (SeeMyResultsArrow)
+Step 19: Click on link GeneratePDF
+Step 20: Click on link StartOver -> Navigate to page ''
+Step 21: Take full page screenshot as checkpoint
+",Trivial,NEW

@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to *",
+        "step 2: Click on link ETFs -> Navigate to page 'investment etfs#*/*/*'",
+        "step 3: Click on link SearchByFund -> Navigate to page 'generic#*/priceandperformance'",
+        "step 4: Hover over tr object",
+        "step 5: Enter input value in input FundNameFilter",
+        "step 6: Click on button AddToWatchlist",
+        "step 7: Click on div SuccessMessage",
+        "step 8: Click on button Close -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
