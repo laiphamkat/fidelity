@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to *",
+        "step 2: Click on link etfOverview (ETFsOverview) -> Navigate to page 'investment etfs#*/*/*'",
+        "step 3: Hover over div object",
+        "step 4: Click on button ReadMore -> Navigate to page 'investor education what is an etf#*/*/*'",
+        "step 5: Hover over div object",
+        "step 6: Click on link InvestorEducation -> Navigate to page 'educational content#*/*'",
+        "step 7: Click on link RRSPTips -> Navigate to page 'insights articles#*/*/*/*'",
+        "step 8: Click on link RRSPs101Chinese",
+        "step 9: Click on input EmailAddress",
+        "step 10: Enter input value in input EmailAddress",
+        "step 11: Click on label IndividualInvestor",
+        "step 12: Click on input InvestorOptIn -> Navigate to page ''",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

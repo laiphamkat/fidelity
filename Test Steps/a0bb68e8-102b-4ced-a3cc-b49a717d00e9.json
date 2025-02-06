@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to */*/*",
+        "step 2: Hover over link LifeExperiences",
+        "step 3: Click on button viewAllRetirementOptions (ViewAllRetirement2) -> Navigate to page 'investing goals#*/*/*/*'",
+        "step 4: Click on link SignUpToday -> Navigate to page 'newsletter page#*/newsletter'",
+        "step 5: Click on input Email",
+        "step 6: Enter input value in input Email",
+        "step 7: Click on div ColumnUP2",
+        "step 8: Click on input IndividualInvestor",
+        "step 9: Click on select InvestorTypeDescription",
+        "step 10: Select option with input value from select InvestorTypeDescription",
+        "step 11: Click on input InvestorOptIn",
+        "step 12: Click on link FidelityCanadaSustainability -> Navigate to page 'informational page#*/aboutus/sustainability'",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

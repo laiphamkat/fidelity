@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to *",
+        "step 2: Click on link etfOverview (ETFsOverview) -> Navigate to page 'investment etfs#*/*/*'",
+        "step 3: Click on link ETFResources -> Navigate to page 'insights library#*/*/*'",
+        "step 4: Click on button wellnessPodcasts (Podcasts)",
+        "step 5: Click on button ApplyFilters",
+        "step 6: Click on link AboutUs -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

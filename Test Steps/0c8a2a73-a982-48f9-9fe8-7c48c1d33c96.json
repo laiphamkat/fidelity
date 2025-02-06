@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to */*",
+        "step 2: Hover over link GrowthCalculator",
+        "step 3: Click on button TryItOut -> Navigate to page 'calculator#*/growthcalculator'",
+        "step 4: Click on div object",
+        "step 5: Click on div dynamicObject (object2)",
+        "step 6: Click on div dynamicObject (object3)",
+        "step 7: Click on input RateOfReturn",
+        "step 8: Enter input value in input RateOfReturn",
+        "step 9: Click on input AdditionalContributions",
+        "step 10: Click on div dynamicObject (object4)",
+        "step 11: Click on div dynamicObject (object5)",
+        "step 12: Enter input value in input AdditionalContributions",
+        "step 13: Click on canvas graphDemo",
+        "step 14: Click on select Frequency",
+        "step 15: Select option with input value from select Frequency",
+        "step 16: Click on span financialValues (DollarAmount)",
+        "step 17: Click on input nominalDollars (NominalDollars) -> Navigate to page ''",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

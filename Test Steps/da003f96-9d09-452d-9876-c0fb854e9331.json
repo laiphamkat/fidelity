@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to */*",
+        "step 2: Click on button funds",
+        "step 3: Click on link fundCategories (category)",
+        "step 4: Click on button category",
+        "step 5: Click on link fundCategories (funds)",
+        "step 6: Click on link viewFund -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

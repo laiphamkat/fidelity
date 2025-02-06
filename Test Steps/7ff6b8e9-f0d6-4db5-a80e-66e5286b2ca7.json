@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to *",
+        "step 2: Click on link GrowthCalculator -> Navigate to page 'calculator#*/growthcalculator'",
+        "step 3: Click on span financialValues (NominalDollars)",
+        "step 4: Click on input nominalDollars (NominalDollars2)",
+        "step 5: Click on link 5WaysToDitchDebt -> Navigate to page 'investor education ditching debt#*/*/*'",
+        "step 6: Click on link GetStarted",
+        "step 7: Click on input Email",
+        "step 8: Enter input value in input Email",
+        "step 9: Click on input FirstName",
+        "step 10: Enter input value in input FirstName",
+        "step 11: Click on input LastName",
+        "step 12: Enter input value in input LastName",
+        "step 13: Click on select PreferredLanguage",
+        "step 14: Select option with input value from select PreferredLanguage",
+        "step 15: Click on label IndividualInvestor",
+        "step 16: Click on select InvestorType",
+        "step 17: Select option with input value from select InvestorType",
+        "step 18: Click on button GetTheGuide",
+        "step 19: Click on input InvestorOptIn",
+        "step 20: Click on button GetTheGuide",
+        "step 21: Click on link DifferenceBetweenSaving -> Navigate to page 'investor education save or invest#*/*/*'",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}

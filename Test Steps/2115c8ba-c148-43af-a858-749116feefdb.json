@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to */products/*/*",
+        "step 2: Click on button None",
+        "step 3: Click on link Deposit",
+        "step 4: Click on button Monthly",
+        "step 5: Click on link Annually -> Navigate to page ''",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}

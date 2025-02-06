@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to */products/*",
+        "step 2: Click on input FundNameFundCodeTicker",
+        "step 3: Enter input value in input FundNameFundCodeTicker",
+        "step 4: Click on item productOptions (object)",
+        "step 5: Click on link FundName -> Navigate to page 'product page#*/products/*/*'",
+        "step 6: Click on button Price -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

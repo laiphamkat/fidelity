@@ -34,6 +34,6 @@
         <name>type</name>
         <type>Main</type>
         <value>button</value>
-        <webElementGuid>bf4572a4-f4c7-420f-ac7f-59b3f076fad7</webElementGuid>
+        <webElementGuid>deef9c7a-44b6-47a4-a2d1-3f7be67def7c</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

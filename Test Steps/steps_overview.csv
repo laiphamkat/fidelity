@@ -1,33 +1,789 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Add Fund to Watchlist from Investment ETFs Page,"Navigate to the homepage, access the ETFs section, search for a fund, add it to the watchlist, and verify the success message.","Step 1: Navigate to *
-Step 2: Click on link ETFs -> Navigate to page 'investment etfs#*/*/*'
-Step 3: Click on link SearchByFund -> Navigate to page 'generic#*/priceandperformance'
-Step 4: Hover over tr object
-Step 5: Enter input value in input FundNameFilter
+1,Navigate to ETF Overview and Read More on ETFs,"Access the ETF overview, read more about ETFs, explore educational content, and verify the homepage.","Step 1: Navigate to *
+Step 2: Click on link etfOverview (ETFsOverview) -> Navigate to page 'investment etfs#*/*/*'
+Step 3: Hover over div object
+Step 4: Click on button ReadMore -> Navigate to page 'investor education what is an etf#*/*/*'
+Step 5: Hover over div object
+Step 6: Click on link InvestorEducation -> Navigate to page 'educational content#*/*'
+Step 7: Click on link RRSPTips -> Navigate to page 'insights articles#*/*/*/*'
+Step 8: Click on link RRSPs101Chinese
+Step 9: Click on input EmailAddress
+Step 10: Enter input value in input EmailAddress
+Step 11: Click on label IndividualInvestor
+Step 12: Click on input InvestorOptIn -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",High,NEW
+15,Search Fund Name and Verify Homepage,"Navigate to product page, search for fund name, and verify the homepage.","Step 1: Navigate to */products/*
+Step 2: Click on input FundNameFundCodeTicker
+Step 3: Enter input value in input FundNameFundCodeTicker
+Step 4: Click on item productOptions (object)
+Step 5: Click on link FundName -> Navigate to page 'product page#*/products/*/*'
+Step 6: Click on button Price -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+35,Use Investment Finder and Verify Product Page,Navigate to investment finder and verify the product page.,"Step 1: Navigate to *
+Step 2: Click on link InvestmentFinder -> Navigate to page 'product#*/products/*'
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+34,Navigate to Deposit Options and Verify Homepage,"Access product listing, navigate through deposit options, and verify the homepage.","Step 1: Navigate to */products/*/*
+Step 2: Click on button None
+Step 3: Click on link Deposit
+Step 4: Click on button Monthly
+Step 5: Click on link Annually -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+32,Search Fund Name and Download Fund Facts,"Navigate to fund information, search for fund name, and download fund facts.","Step 1: Navigate to */*
+Step 2: Click on input FundNameFilter
+Step 3: Hover over tr object
+Step 4: Enter input value in input FundNameFilter
+Step 5: Click on link FundDetails -> Navigate to page 'product listing#*/products/*/*'
+Step 6: Click on button SeriesB
+Step 7: Click on link SeriesB -> Navigate to page 'fund information#*/*'
+Step 8: Hover over tr object
+Step 9: Click on link FundFactsDownload -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+30,Hide Legal and Verify Homepage,"Navigate to personal watchlist, hide legal notices, and verify the homepage.","Step 1: Navigate to */*
+Step 2: Click on button hideLegal
+Step 3: Click on button pricePerformance (performance)
+Step 4: Click on button pricePerformance (price) -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+28,Access Fund Categories and Verify Homepage,"Navigate to performance ratings, access fund categories, and verify the homepage.","Step 1: Navigate to */*
+Step 2: Click on button funds
+Step 3: Click on link fundCategories (category)
+Step 4: Click on button category
+Step 5: Click on link fundCategories (funds)
+Step 6: Click on link viewFund -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+24,Contact Us and Verify Homepage,"Access contact us section, explore careers, and verify the homepage.","Step 1: Navigate to */*/*/*
+Step 2: Click on link AboutUs -> Navigate to page 'informational#*/aboutus'
+Step 3: Click on link ContactUs -> Navigate to page 'contact page#*/contact'
+Step 4: Click on button SendAnEmail
+Step 5: Click on link Careers
+Step 6: Click on link MediaCentre -> Navigate to page 'media resources#*/*'
+Step 7: Click on span object -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+22,Navigate to Insights and Verify Generic Proxy,Access insights articles and verify the generic proxy page.,"Step 1: Navigate to */*/*
+Step 2: Click on link PriceAndPerformance -> Navigate to page 'generic#*/priceandperformance'
+Step 3: Click on link Insights -> Navigate to page 'educational content#*/*'
+Step 4: Click on link AboutUs -> Navigate to page 'informational#*/aboutus'
+Step 5: Click on link ProxyVoting -> Navigate to page 'generic proxy#*/proxy'
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+18,Access Administration Fees and Verify Homepage,Navigate to investment options and access administration fees forms.,"Step 1: Navigate to *
+Step 2: Click on body Object3 -> Navigate to page 'investment options#*/*'
+Step 3: Click on link Investments
+Step 4: Click on link AdministrationFeesForms -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+17,Navigate Product Listing and Verify Page,Access product listing and verify the page.,"Step 1: Navigate to */products/*/*
+Step 2: Click on div Object
+Step 3: Click on div Object2
+Step 4: Click on link French
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+16,Search for American Equity and Verify Homepage,"Navigate to user actions, search for American Equity, and verify the homepage.","Step 1: Navigate to *
+Step 2: Click on link userActions (Search)
+Step 3: Enter input value in input Search
+Step 4: Click on link AmericanEquity -> Navigate to page 'product page#*/products/*/*'
+Step 5: Click on button Price -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+38,Login and Verify Homepage,"Navigate to user actions, login, and verify the homepage.","Step 1: Navigate to *
+Step 2: Click on link userActions (Login)
+Step 3: Click on link InvestmentFinder2 -> Navigate to page 'product#*/products/*'
+Step 4: Click on link Login -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+11,Access ETF Resources and Verify Homepage,"Navigate to ETF resources, explore wellness podcasts, and verify the homepage.","Step 1: Navigate to *
+Step 2: Click on link etfOverview (ETFsOverview) -> Navigate to page 'investment etfs#*/*/*'
+Step 3: Click on link ETFResources -> Navigate to page 'insights library#*/*/*'
+Step 4: Click on button wellnessPodcasts (Podcasts)
+Step 5: Click on button ApplyFilters
+Step 6: Click on link AboutUs -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+10,Use Growth Calculator and Verify Homepage,"Navigate to the growth calculator, input financial values, and verify the homepage.","Step 1: Navigate to */*
+Step 2: Hover over link GrowthCalculator
+Step 3: Click on button TryItOut -> Navigate to page 'calculator#*/growthcalculator'
+Step 4: Click on div object
+Step 5: Click on div dynamicObject (object2)
+Step 6: Click on div dynamicObject (object3)
+Step 7: Click on input RateOfReturn
+Step 8: Enter input value in input RateOfReturn
+Step 9: Click on input AdditionalContributions
+Step 10: Click on div dynamicObject (object4)
+Step 11: Click on div dynamicObject (object5)
+Step 12: Enter input value in input AdditionalContributions
+Step 13: Click on canvas graphDemo
+Step 14: Click on select Frequency
+Step 15: Select option with input value from select Frequency
+Step 16: Click on span financialValues (DollarAmount)
+Step 17: Click on input nominalDollars (NominalDollars) -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",High,NEW
+3,Explore Investing for Beginners and Financial Tools,"Access investing for beginners, explore financial tools, and verify the homepage.","Step 1: Navigate to *
+Step 2: Click on link InvestingForBeginners -> Navigate to page 'investor education investing beginners#*/*/*'
+Step 3: Click on link InvestingForBeginners
+Step 4: Click on link SavingsCalculator -> Navigate to page 'financial tool#*/savingscalculator'
+Step 5: Click on link InvestingForBeginners -> Navigate to page 'investor education investing beginners#*/*/*'
+Step 6: Click on link InvestmentGoals -> Navigate to page 'investor education investing goals#*/*/*'
+Step 7: Hover over link Retirement
+Step 8: Click on button viewAllRetirementOptions (ViewAllRetirement) -> Navigate to page 'investing goals#*/*/*/*'
+Step 9: Click on link investingResources (RetirementIncomeOptions) -> Navigate to page 'insights articles#*/*/*/*'
+Step 10: Hover over div Object
+Step 11: Click on link Insights -> Navigate to page 'educational content#*/*'
+Step 12: Click on link TheUpsideWebcasts
+Step 13: Click on button RegisterToday -> Navigate to page 'registration page#*/*/webcasts-registration'
+Step 14: Click on link FidelityConnectsLive -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",High,NEW
+5,Search Fund Information and Verify Homepage,"Navigate to price and performance, search for a fund, and verify the homepage.","Step 1: Navigate to */priceandperformance
+Step 2: Click on input FundSearch
+Step 3: Hover over tr object
+Step 4: Enter input value in input FundSearch
+Step 5: Click on link fundInformation (FundAV) -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+6,Search Fund Codes and Verify Homepage,"Access partner fund codes, search for a fund, and verify the homepage.","Step 1: Navigate to */*/*
+Step 2: Click on input FundSearch
+Step 3: Hover over tr Object
+Step 4: Enter input value in input FundSearch
+Step 5: Click on link FundAV -> Navigate to page 'product page#*/products/*/*'
+Step 6: Click on button Price -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+20,Explore Insights Library and Verify Investment Options,Navigate through insights library and verify investment options.,"Step 1: Navigate to *
+Step 2: Click on link ArticlesWebcastsPodcasts -> Navigate to page 'insights library#*/*/*'
+Step 3: Click on button wellnessPodcasts (Podcasts)
+Step 4: Click on button wellnessPodcasts (Wellness)
+Step 5: Click on button ApplyFilters
+Step 6: Click on button ClearAllFilters
+Step 7: Click on link ExploringFixedIncome -> Navigate to page 'sustainable investing#*/*/*'
+Step 8: Click on link WebcastRegistration -> Navigate to page 'registration page#*/*/webcasts-registration'
+Step 9: Click on link FidelityConnectsLive -> Navigate to page 'investment options#*/*'
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+12,Explore Investment Goals and Verify Homepage,"Access investment goals, explore proxy voting, and verify the homepage.","Step 1: Navigate to */products/*
+Step 2: Click on link welcomeMessage (WelcomeToFidelity) -> Navigate to page 'homepage#*'
+Step 3: Click on link WhatAreMyInvestmentGoals -> Navigate to page 'investor education investing goals#*/*/*'
+Step 4: Hover over link Retirement
+Step 5: Click on button viewAllRetirementOptions (ViewAllRetirement) -> Navigate to page 'investing goals#*/*/*/*'
+Step 6: Click on link ProxyVoting -> Navigate to page 'generic proxy#*/proxy'
+Step 7: Click on article object
+Step 8: Click on article object
+Step 9: Click on div core
+Step 10: Click on article object
+Step 11: Click on div GuidelinesGlossary
+Step 12: Click on div core
+Step 13: Click on item Search
+Step 14: Click on link Search
+Step 15: Click on input SearchText
+Step 16: Enter input value in input SearchText
+Step 17: Click on div CloseSubmitSearch
+Step 18: Click on button Close
+Step 19: Click on article object -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
+",Medium,NEW
+36,Search for Products and Verify Homepage,Use search function to find products and verify the homepage.,"Step 1: Navigate to *
+Step 2: Enter input value in input Search
+Step 3: Enter input value in input Search
+Step 4: Click on button SubmitSearch -> Navigate to page 'search results#content/*/*/search-results.html'
+Step 5: Click on atomic object -> Navigate to page 'product#*/products/*'
+Step 6: Click on link GlobalInvestmentNetwork -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+33,Search Fund Information and Verify Watchlist,"Access investment options, search for fund information, and verify personal watchlist.","Step 1: Navigate to *
+Step 2: Click on link Investments -> Navigate to page 'investment options#*/*'
+Step 3: Hover over link MutualFunds
+Step 4: Click on button ViewAllFunds -> Navigate to page 'investment mutual funds#*/*/*'
+Step 5: Click on link SearchByFund -> Navigate to page 'generic#*/priceandperformance'
+Step 6: Click on input FundSearch
+Step 7: Enter input value in input FundSearch
+Step 8: Hover over tr object4
+Step 9: Click on link fundInformation (AllInOneGrowthETF)
+Step 10: Hover over tr object4
+Step 11: Click on button AddToWatchlist
+Step 12: Click on button Close
+Step 13: Click on link WatchList -> Navigate to page 'personal watchlist#*/*'
+Step 14: Take full page screenshot as checkpoint
+",Medium,NEW
+23,Sign Up for Newsletter and Verify Informational Page,"Navigate to investing goals, sign up for a newsletter, and verify the informational page.","Step 1: Navigate to */*/*
+Step 2: Hover over link LifeExperiences
+Step 3: Click on button viewAllRetirementOptions (ViewAllRetirement2) -> Navigate to page 'investing goals#*/*/*/*'
+Step 4: Click on link SignUpToday -> Navigate to page 'newsletter page#*/newsletter'
+Step 5: Click on input Email
+Step 6: Enter input value in input Email
+Step 7: Click on div ColumnUP2
+Step 8: Click on input IndividualInvestor
+Step 9: Click on select InvestorTypeDescription
+Step 10: Select option with input value from select InvestorTypeDescription
+Step 11: Click on input InvestorOptIn
+Step 12: Click on link FidelityCanadaSustainability -> Navigate to page 'informational page#*/aboutus/sustainability'
+Step 13: Take full page screenshot as checkpoint
+",Medium,NEW
+8,Navigate Educational Content and Verify Fund Information,"Access educational content, explore various links, and verify fund information.","Step 1: Navigate to */*
+Step 2: Click on body object multiple times
+	- Step 1: Click on body Object
+	- Step 2: Click on body Object
+	- Step 3: Click on body Object
+	- Step 4: Click on body Object
+	- Step 5: Click on body Object
+	- Step 6: Click on body Object
+Step 3: Click on body object multiple times
+	- Step 1: Click on body Object
+	- Step 2: Click on body Object
+	- Step 3: Click on body Object
+	- Step 4: Click on body Object
+	- Step 5: Click on body Object
+	- Step 6: Click on body Object
+Step 4: Click on body Object -> Navigate to page 'homepage#*'
+Step 5: Click on body Object
+Step 6: Click on body Object
+Step 7: Click on body Object
+Step 8: Click on body Object
+Step 9: Click on body Object
+Step 10: Click on body Object
+Step 11: Click on body Object
+Step 12: Click on body Object
+Step 13: Click on body Object
+Step 14: Click on body Object
+Step 15: Click on link etfOverview (ETFsOverview) -> Navigate to page 'investment etfs#*/*/*'
+Step 16: Click on body Object
+Step 17: Click on body Object
+Step 18: Click on body Object
+Step 19: Click on body Object
+Step 20: Click on body Object
+Step 21: Click on body Object
+Step 22: Click on body Object
+Step 23: Hover over div object
+Step 24: Click on button ReadMore -> Navigate to page 'investor education what is an etf#*/*/*'
+Step 25: Click on body Object
+Step 26: Click on body Object
+Step 27: Click on body Object
+Step 28: Click on body Object
+Step 29: Click on link PriceAndPerformance -> Navigate to page 'generic#*/priceandperformance'
+Step 30: Click on body Object
+Step 31: Click on body Object
+Step 32: Hover over tr object2
+Step 33: Click on link ViewFund -> Navigate to page 'product listing#*/products/*/*'
+Step 34: Click on div Object
+Step 35: Click on div Object2
+Step 36: Click on link fundStatistics (GetETFStats) -> Navigate to page 'fund information#*/*'
+Step 37: Click on button AllSalesOptions
+Step 38: Click on link SalesOptionA
+Step 39: Click on body Object
+Step 40: Click on body Object
+Step 41: Click on body Object
+Step 42: Click on body Object
+Step 43: Click on link PriceAndPerformance -> Navigate to page 'generic#*/priceandperformance'
+Step 44: Hover over tr object3
+Step 45: Click on link ViewFund2 -> Navigate to page 'product listing#*/products/*/*'
+Step 46: Click on link fundStatistics (GetFundFacts) -> Navigate to page 'fund information#*/*'
+Step 47: Take full page screenshot as checkpoint
+",Medium,NEW
+13,Search Fund and Add to Watchlist,"Navigate to ETF overview, search for a fund, and add it to the watchlist.","Step 1: Navigate to *
+Step 2: Click on link etfOverview (ETFsOverview) -> Navigate to page 'investment etfs#*/*/*'
+Step 3: Click on link searchFund (SearchByFundName) -> Navigate to page 'generic#*/priceandperformance'
+Step 4: Hover over tr object4
+Step 5: Enter input value in input FundSearch
 Step 6: Click on button AddToWatchlist
 Step 7: Click on div SuccessMessage
 Step 8: Click on button Close -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
-",High,NEW
-2,Complete Retirement Calculator and Generate PDF Report,"Access the retirement calculator, input financial details across multiple sections, generate a PDF report, and return to the homepage.","Step 1: Navigate to */retirementcalculator
-Step 2: Click on input userFinancialDetails (UserAge)
-Step 3: Enter input value in input userFinancialDetails (UserAge)
-Step 4: Click on input userFinancialDetails (UserAnnualIncome)
-Step 5: Enter input value in input userFinancialDetails (UserAnnualIncome)
-Step 6: Click on input userFinancialDetails (UserRetirementSavings)
-Step 7: Enter input value in input userFinancialDetails (UserRetirementSavings)
-Step 8: Click on div SavingsInfo
-Step 9: Click on input userFinancialDetails (UserMonthlySavings)
-Step 10: Enter input value in input userFinancialDetails (UserMonthlySavings)
-Step 11: Click on link navigationArrows (NextArrow)
-Step 12: Click on input userFinancialDetails (UserIncomeOther)
-Step 13: Enter input value in input userFinancialDetails (UserIncomeOther)
-Step 14: Click on link navigationArrows (NextArrow)
-Step 15: Adjust div UserInvestmentStyle by input value
-Step 16: Click on link navigationArrows (NextArrow)
-Step 17: Adjust div UserRequiredIncome by input value
-Step 18: Click on link navigationArrows (SeeMyResultsArrow)
-Step 19: Click on link GeneratePDF
-Step 20: Click on link StartOver -> Navigate to page ''
-Step 21: Take full page screenshot as checkpoint
+",Medium,NEW
+7,Input User Financial Data and Generate PDF,"Use the retirement calculator, input financial data, generate a PDF, and verify the homepage.","Step 1: Navigate to */retirementcalculator
+Step 2: Input user financial data multiple times
+	- Step 1: Click on input userFinancialData
+	- Step 2: Enter input value in input userFinancialData
+	- Step 3: Click on input userFinancialData
+	- Step 4: Enter input value in input userFinancialData
+	- Step 5: Click on input userFinancialData
+	- Step 6: Enter input value in input userFinancialData
+Step 3: Click on div SavingsInfo
+Step 4: Click on input userFinancialData (UserMonthlySavings)
+Step 5: Enter input value in input userFinancialData (UserMonthlySavings)
+Step 6: Navigate and input user financial and investment data
+	- Step 1: Click on link navigation
+	- Step 2: Click on input userFinancialData
+	- Step 3: Enter input value in input userFinancialData
+	- Step 4: Click on link navigation
+	- Step 5: Adjust div UserInvestmentStyle by input value
+	- Step 6: Click on link navigation
+	- Step 7: Adjust div userRequiredIncome by input value
+Step 7: Click on link navigation (SeeMyResultsArrow)
+Step 8: Click on link generatePDF (GeneratePDF)
+Step 9: Click on link startOver (StartOver) -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Low,NEW
+4,Navigate Products and Verify Homepage,"Access product categories, navigate through various options, and verify the homepage.","Step 1: Navigate to */products/*
+Step 2: Click on md ETFs
+Step 3: Click on md ManagedPortfolios
+Step 4: Click on md ETFs2
+Step 5: Click on md ManagedPortfolios2
+Step 6: Click on md ManagedPortfolios3
+Step 7: Click on md ManagedPortfolios4
+Step 8: Click on md ManagedPortfolios3
+Step 9: Click on md ManagedPortfolios4
+Step 10: Click on md ClearPathRetirementPortfolios
+Step 11: Click on main Object -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",Low,NEW
+26,Search Funds and Verify Product Listing,"Navigate through product options, search for funds, and verify product listing.","Step 1: Navigate to */products/*
+Step 2: Click on md ETFs4
+Step 3: Click on md ManagedPortfolios8
+Step 4: Click on input SearchField
+Step 5: Enter input value in input SearchField
+Step 6: Click on item product
+Step 7: Enter input value in input SearchField
+Step 8: Click on item productOptions (option)
+Step 9: Click on span assetClass
+Step 10: Click on md selectOptions (selectOption)
+Step 11: Click on md backdrop
+Step 12: Click on span assetCategory
+Step 13: Click on md selectOptions (selectOption2)
+Step 14: Click on md backdrop
+Step 15: Click on span geographicFocus
+Step 16: Click on md selectOptions (selectOption3)
+Step 17: Click on md backdrop
+Step 18: Click on link viewFunds
+Step 19: Click on link addToWatchlist
+Step 20: Click on button close
+Step 21: Click on link viewFund -> Navigate to page 'product listing#*/products/*/*'
+Step 22: Take full page screenshot as checkpoint
+",Low,NEW
+9,Explore Educational Resources and Verify Homepage,"Navigate through educational resources, explore insights, and verify the homepage.","Step 1: Navigate to *
+Step 2: Click on body Object2
+Step 3: Click on body Object2
+Step 4: Click on body Object2
+Step 5: Click on body Object2
+Step 6: Click on link InvestingForBeginners -> Navigate to page 'investor education investing beginners#*/*/*'
+Step 7: Hover over div Object
+Step 8: Click on link Home -> Navigate to page 'homepage#*'
+Step 9: Click on body Object3
+Step 10: Click on body Object3
+Step 11: Click on body Object3
+Step 12: Click on link InvestorEducation
+Step 13: Click on link InvestorEducationOverview
+Step 14: Click on body Object3 -> Navigate to page 'investment options#*/*'
+Step 15: Hover over link Awards
+Step 16: Click on button SeeAllAwards -> Navigate to page 'insights awards#*/*/*'
+Step 17: Click on body Object
+Step 18: Click on link FidelityEmergingMarketsFund
+Step 19: Click on body Object
+Step 20: Click on body Object
+Step 21: Click on body Object
+Step 22: Click on body Object
+Step 23: Click on body Object
+Step 24: Click on link VolatilityToolbox -> Navigate to page 'financial tool#*/*'
+Step 25: Click on body Object
+Step 26: Click on body Object
+Step 27: Click on body Object
+Step 28: Click on body Object
+Step 29: Click on body Object
+Step 30: Click on body Object
+Step 31: Click on body Object
+Step 32: Click on body Object
+Step 33: Click on body Object
+Step 34: Click on body Object
+Step 35: Click on link Investments
+Step 36: Click on link InvestmentsOverview
+Step 37: Click on body object multiple times
+	- Step 1: Click on body Object
+	- Step 2: Click on body Object
+	- Step 3: Click on body Object
+	- Step 4: Click on body Object
+	- Step 5: Click on body Object
+	- Step 6: Click on body Object
+Step 38: Click on link educationalResources (ToolsAndCalculators)
+Step 39: Click on link ToolsAndCalculatorsOverview -> Navigate to page 'financial tools#*/*'
+Step 40: Click on body object
+Step 41: Click on body object
+Step 42: Click on body object
+Step 43: Click on body object
+Step 44: Click on body object
+Step 45: Click on link PriceAndPerformance -> Navigate to page 'generic#*/priceandperformance'
+Step 46: Hover over tr object3
+Step 47: Click on link FundFacts
+Step 48: Click on button AllFidelityFunds
+Step 49: Click on div object
+Step 50: Hover over tr object2
+Step 51: Click on link ViewFund -> Navigate to page 'product listing#*/products/*/*'
+Step 52: Click on link fundStatistics (GetETFStats) -> Navigate to page 'fund information#*/*'
+Step 53: Click on body Object
+Step 54: Click on body Object
+Step 55: Click on body Object
+Step 56: Click on body Object
+Step 57: Click on body Object
+Step 58: Click on body Object
+Step 59: Click on body Object
+Step 60: Click on body Object
+Step 61: Click on body Object
+Step 62: Click on body Object
+Step 63: Click on body Object
+Step 64: Click on body Object
+Step 65: Click on body Object
+Step 66: Click on body Object
+Step 67: Click on body Object
+Step 68: Click on body Object
+Step 69: Click on body Object
+Step 70: Click on body Object
+Step 71: Click on body Object
+Step 72: Click on body Object
+Step 73: Click on body Object
+Step 74: Click on body Object
+Step 75: Click on body Object
+Step 76: Click on body Object
+Step 77: Click on body Object
+Step 78: Click on body Object
+Step 79: Click on body Object
+Step 80: Click on body Object
+Step 81: Click on body Object
+Step 82: Click on body Object
+Step 83: Click on body Object
+Step 84: Click on body Object
+Step 85: Click on body Object
+Step 86: Click on body Object
+Step 87: Click on body Object
+Step 88: Click on body Object
+Step 89: Click on body Object
+Step 90: Click on body Object
+Step 91: Click on body Object
+Step 92: Click on body Object
+Step 93: Click on link InvestorEducation
+Step 94: Click on link InvestorEducationOverview
+Step 95: Click on body Object
+Step 96: Click on body Object -> Navigate to page 'educational content#*/*'
+Step 97: Click on body Object2
+Step 98: Click on body Object2
+Step 99: Click on body Object3
+Step 100: Click on body Object3
+Step 101: Click on body Object3
+Step 102: Click on body Object3
+Step 103: Click on body Object3
+Step 104: Click on body Object3
+Step 105: Click on body Object3
+Step 106: Click on body Object3
+Step 107: Click on body Object3
+Step 108: Click on body Object3
+Step 109: Click on body Object3
+Step 110: Click on body Object3
+Step 111: Click on body Object3
+Step 112: Click on body Object3
+Step 113: Click on body Object3
+Step 114: Click on body Object3
+Step 115: Click on body Object3
+Step 116: Click on body Object3
+Step 117: Click on body Object3
+Step 118: Click on body Object3
+Step 119: Click on body Object3
+Step 120: Click on body Object3
+Step 121: Click on body Object3
+Step 122: Click on body Object3
+Step 123: Click on body Object3
+Step 124: Click on body Object3
+Step 125: Click on body Object3
+Step 126: Click on body Object3
+Step 127: Click on body Object3
+Step 128: Click on body Object3
+Step 129: Click on body Object3
+Step 130: Click on body Object3
+Step 131: Click on body Object3
+Step 132: Click on body Object3
+Step 133: Click on body Object3
+Step 134: Click on link educationalResources (InvestorEducation)
+Step 135: Click on link MutualFunds -> Navigate to page 'investment mutual funds#*/*/*'
+Step 136: Hover over link MoneyMarketMutualFunds
+Step 137: Click on button ExploreFunds -> Navigate to page 'generic#*/priceandperformance'
+Step 138: Click on button AllFidelityFunds
+Step 139: Click on link MyWatchList
+Step 140: Click on button All
+Step 141: Click on link TSeriesOnly
+Step 142: Click on button F5NLTSeries
+Step 143: Click on link I5ISCTSeries
+Step 144: Click on button All2
+Step 145: Click on link CDN
+Step 146: Click on button DownloadXLSX
+Step 147: Click on link AboutUs -> Navigate to page 'informational#*/aboutus'
+Step 148: Take full page screenshot as checkpoint
+",Low,NEW
+2,Input Financial Data in Retirement Calculator,"Navigate to the retirement calculator, input financial data multiple times, and verify the homepage.","Step 1: Navigate to */retirementcalculator
+Step 2: Input user financial data multiple times
+	- Step 1: Click on input userFinancialData
+	- Step 2: Enter input value in input userFinancialData
+	- Step 3: Click on input userFinancialData
+	- Step 4: Enter input value in input userFinancialData
+	- Step 5: Click on input userFinancialData
+	- Step 6: Enter input value in input userFinancialData
+Step 3: Click on input userFinancialData (UserMonthlySavings)
+Step 4: Enter input value in input userFinancialData (UserMonthlySavings)
+Step 5: Navigate and input user financial and investment data
+	- Step 1: Click on link navigation
+	- Step 2: Click on input userFinancialData
+	- Step 3: Enter input value in input userFinancialData
+	- Step 4: Click on link navigation
+	- Step 5: Adjust div UserInvestmentStyle by input value
+	- Step 6: Click on link navigation
+	- Step 7: Adjust div userRequiredIncome by input value
+Step 6: Take full page screenshot as checkpoint
+",Low,NEW
+19,Get Financial Guide and Verify Education Page,Input personal information to get a financial guide and verify the education page.,"Step 1: Navigate to *
+Step 2: Click on link GrowthCalculator -> Navigate to page 'calculator#*/growthcalculator'
+Step 3: Click on span financialValues (NominalDollars)
+Step 4: Click on input nominalDollars (NominalDollars2)
+Step 5: Click on link 5WaysToDitchDebt -> Navigate to page 'investor education ditching debt#*/*/*'
+Step 6: Click on link GetStarted
+Step 7: Click on input Email
+Step 8: Enter input value in input Email
+Step 9: Click on input FirstName
+Step 10: Enter input value in input FirstName
+Step 11: Click on input LastName
+Step 12: Enter input value in input LastName
+Step 13: Click on select PreferredLanguage
+Step 14: Select option with input value from select PreferredLanguage
+Step 15: Click on label IndividualInvestor
+Step 16: Click on select InvestorType
+Step 17: Select option with input value from select InvestorType
+Step 18: Click on button GetTheGuide
+Step 19: Click on input InvestorOptIn
+Step 20: Click on button GetTheGuide
+Step 21: Click on link DifferenceBetweenSaving -> Navigate to page 'investor education save or invest#*/*/*'
+Step 22: Take full page screenshot as checkpoint
+",Low,NEW
+29,Input Tax Information and Verify Homepage,"Use tax calculator, input various income details, and verify the homepage.","Step 1: Navigate to */taxcalculator
+Step 2: Click on select residentProvince
+Step 3: Select option with input value from select residentProvince
+Step 4: Click on select taxYear
+Step 5: Click on input employmentIncome
+Step 6: Click on input employmentIncome
+Step 7: Click on input employmentIncome2
+Step 8: Click on input interestIncome
+Step 9: Enter input value in input interestIncome
+Step 10: Click on div totalIncome
+Step 11: Click on input interestIncome2
+Step 12: Click on link taxCalculator
+Step 13: Click on select residentProvince
+Step 14: Select option with input value from select residentProvince
+Step 15: Click on input employmentIncome2
+Step 16: Enter input value in input employmentIncome2
+Step 17: Click on input interestIncome
+Step 18: Enter input value in input interestIncome
+Step 19: Click on input dividendIncome
+Step 20: Enter input value in input dividendIncome
+Step 21: Click on input capitalGainsPre
+Step 22: Click on input capitalGainsPost
+Step 23: Click on input taxesPaid
+Step 24: Enter input value in input taxesPaid
+Step 25: Click on div totalDeductions
+Step 26: Click on input rrspContribution
+Step 27: Enter input value in input rrspContribution
+Step 28: Click on input fhsaContribution
+Step 29: Click on button calculateRefund -> Navigate to page ''
+Step 30: Take full page screenshot as checkpoint
+",Trivial,NEW
+27,Input User Financial Data and Verify Homepage,"Use retirement calculator, input financial data, and verify the homepage.","Step 1: Navigate to */retirementcalculator
+Step 2: Input user financial data multiple times
+	- Step 1: Click on input userFinancialData
+	- Step 2: Enter input value in input userFinancialData
+	- Step 3: Click on input userFinancialData
+	- Step 4: Enter input value in input userFinancialData
+	- Step 5: Click on input userFinancialData
+	- Step 6: Enter input value in input userFinancialData
+Step 3: Click on main myPlan
+Step 4: Click on input userFinancialData (UserMonthlySavings)
+Step 5: Enter input value in input userFinancialData (UserMonthlySavings)
+Step 6: Click on link navigation (next)
+Step 7: Click on input userFinancialData (UserIncomeOther)
+Step 8: Click on input userFinancialData (UserIncomeOther)
+Step 9: Enter input value in input userFinancialData (UserIncomeOther)
+Step 10: Click on link navigation (next2)
+Step 11: Click on div userInvestmentStyle
+Step 12: Click on link navigation (next2)
+Step 13: Click on div userRequiredIncome
+Step 14: Click on link navigation (seeMyResults)
+Step 15: Click on select resultsView
+Step 16: Select option with input value from select resultsView
+Step 17: Click on link projectedIncome
+Step 18: Click on link startOver (startOver) -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",Trivial,NEW
+31,Use Tax Smart Calculator and Verify Page,"Navigate to tax smart calculator, input fund details, and verify the calculator page.","Step 1: Navigate to */taxsmartcalculator
+Step 2: Click on button addFunds
+Step 3: Click on input fundNameOrCode
+Step 4: Enter input value in input fundNameOrCode
+Step 5: Click on button object
+Step 6: Click on link taxSmartCalculator
+Step 7: Click on button addFunds
+Step 8: Click on button object2
+Step 9: Click on link investmentFinder -> Navigate to page 'product#*/products/*'
+Step 10: Click on link taxSmartCalculator -> Navigate to page 'calculator#*/taxsmartcalculator'
+Step 11: Click on button addFunds
+Step 12: Click on button object2
+Step 13: Click on span object
+Step 14: Click on input monthlyCashFlow
+Step 15: Click on label object
+Step 16: Click on button addFunds
+Step 17: Click on select category
+Step 18: Select option with input value from select category
+Step 19: Click on input fundNameOrCode2
+Step 20: Enter input value in input fundNameOrCode2
+Step 21: Click on input fidelityBalancedClass
+Step 22: Click on button addSelectedFunds
+Step 23: Click on input allocationPercentage
+Step 24: Enter input value in input allocationPercentage2
+Step 25: Click on select province
+Step 26: Select option with input value from select province
+Step 27: Click on button Calculate
+Step 28: Take full page screenshot as checkpoint
+",Trivial,NEW
+25,Input Savings Goals and Verify Homepage,"Use savings calculator, input goals multiple times, and verify the homepage.","Step 1: Navigate to *
+Step 2: Click on link toolsAndCalculators (ToolsAndCalculators2) -> Navigate to page 'financial tools#*/*'
+Step 3: Hover over link SavingsCalculator
+Step 4: Click on button tryItOut (TryItOut3) -> Navigate to page 'financial tool#*/savingscalculator'
+Step 5: Click on div financialGoals (Vacation)
+Step 6: Click on button navigation (Next5)
+Step 7: Click on input NameYourGoal
+Step 8: Enter input value in input NameYourGoal
+Step 9: Click on button navigation (Next6)
+Step 10: Click on input savingsGoals (HowMuchDoYouWantToSave)
+Step 11: Enter input value in input savingsGoals (HowMuchDoYouWantToSave)
+Step 12: Click on div object7
+Step 13: Enter input value in input savingsGoals (HowMuchDoYouWantToSave)
+Step 14: Click on button navigation (Next7)
+Step 15: Click on input savingsGoals (HowMuchHaveYouAlready)
+Step 16: Enter input value in input savingsGoals (HowMuchHaveYouAlready)
+Step 17: Click on button navigation (Next8)
+Step 18: Click on button navigation (SelectAnOption)
+Step 19: Click on div dynamicObject (OptCst3)
+Step 20: Click on button navigation (SeeResults2)
+Step 21: Click on button IncreaseMonthlySavings
+Step 22: Click on button IncreaseMonthlySavings -> Navigate to page ''
+Step 23: Take full page screenshot as checkpoint
+",Trivial,NEW
+21,Explore Investment Options and Verify Product Page,Access various investment options and verify the product page.,"Step 1: Navigate to *
+Step 2: Click on link InvestingForBeginners -> Navigate to page 'investor education investing beginners#*/*/*'
+Step 3: Click on link WhatIsAStock -> Navigate to page 'investor education#*/*/*'
+Step 4: Hover over div object
+Step 5: Click on link InvestorEducation -> Navigate to page 'educational content#*/*'
+Step 6: Click on link RRSPTips -> Navigate to page 'insights articles#*/*/*/*'
+Step 7: Click on link InvestmentGoals -> Navigate to page 'investor education investing goals#*/*/*'
+Step 8: Hover over link SavingForEducation
+Step 9: Click on button viewAllRetirementOptions (ViewAllSavingForEducation) -> Navigate to page 'investing goals#*/*/*/*'
+Step 10: Click on link investingResources (IntroductionToRESPs) -> Navigate to page 'insights articles#*/*/*/*'
+Step 11: Click on link StartInvesting -> Navigate to page 'investor education#*/*/*'
+Step 12: Click on link FinancialGoals -> Navigate to page 'product promotion#*/*'
+Step 13: Click on link LearnMore -> Navigate to page 'guidance#*/howtobuyfidelityfunds'
+Step 14: Click on link SearchETFOrMutualFund -> Navigate to page 'product#*/products/*'
+Step 15: Click on md ManagedPortfolios5
+Step 16: Click on md ManagedPortfolios6
+Step 17: Click on md ClearPathRetirement
+Step 18: Click on md PrivateInvestmentPools
+Step 19: Click on md ETFs3
+Step 20: Click on md ManagedPortfolios3
+Step 21: Click on md ClearPathRetirement2
+Step 22: Click on md PrivateInvestmentPools2
+Step 23: Click on md ManagedPortfolios4
+Step 24: Click on md PrivateInvestmentPools3
+Step 25: Click on md ManagedPortfolios7
+Step 26: Click on div MutualFunds
+Step 27: Click on div MutualFunds2
+Step 28: Click on div MutualFunds3
+Step 29: Click on div MutualFunds4
+Step 30: Click on div MutualFunds3
+Step 31: Click on div MutualFunds4
+Step 32: Click on div ETFs
+Step 33: Click on div ETFs2
+Step 34: Click on div ETFs3
+Step 35: Click on div ETFs4
+Step 36: Click on div MutualFunds5
+Step 37: Click on div MutualFunds6
+Step 38: Click on div MutualFunds7
+Step 39: Click on div MutualFunds6
+Step 40: Click on div ManagedPortfolios
+Step 41: Click on div ManagedPortfolios2
+Step 42: Click on div ManagedPortfolios3
+Step 43: Click on div ManagedPortfolios4
+Step 44: Click on div ManagedPortfolios3
+Step 45: Click on div ClearPathRetirement
+Step 46: Click on div ClearPathRetirementPortfolios
+Step 47: Click on div ClearPathRetirement2
+Step 48: Click on div ClearPathRetirementPortfolios2
+Step 49: Click on div PrivateInvestmentPools
+Step 50: Click on div PrivateInvestmentPools2
+Step 51: Click on div MutualFunds
+Step 52: Click on div ETFs
+Step 53: Click on div ClearPathRetirement
+Step 54: Click on div PrivateInvestmentPools
+Step 55: Click on div PrivateInvestmentPools3
+Step 56: Click on div ClearPathRetirementPortfolios3
+Step 57: Click on div ManagedPortfolios5
+Step 58: Click on div ETFs5
+Step 59: Click on div MutualFunds8
+Step 60: Click on div MutualFunds7
+Step 61: Click on div ETFs6
+Step 62: Click on div ManagedPortfolios6
+Step 63: Click on div ClearPathRetirement3
+Step 64: Click on div PrivateInvestmentPools4
+Step 65: Click on div PrivateInvestmentPools5
+Step 66: Click on div PrivateInvestmentPools6
+Step 67: Click on div PrivateInvestmentPools5
+Step 68: Click on div PrivateInvestmentPools6
+Step 69: Click on div PrivateInvestmentPools5
+Step 70: Click on div MutualFunds6
+Step 71: Take full page screenshot as checkpoint
+",Trivial,NEW
+37,Input User Financial Data and Generate PDF,Use financial tools to input data multiple times and generate a PDF.,"Step 1: Navigate to *
+Step 2: Click on link toolsAndCalculators (ToolsAndCalculators)
+Step 3: Input user financial data multiple times
+	- Step 1: Click on input userFinancialData
+	- Step 2: Enter input value in input userFinancialData
+	- Step 3: Click on input userFinancialData
+	- Step 4: Enter input value in input userFinancialData
+	- Step 5: Click on input userFinancialData
+	- Step 6: Enter input value in input userFinancialData
+Step 4: Click on input userFinancialData (UserMonthlySavings)
+Step 5: Enter input value in input userFinancialData (UserMonthlySavings)
+Step 6: Click on main myPlan
+Step 7: Navigate and input user financial and investment data
+	- Step 1: Click on link navigation
+	- Step 2: Click on input userFinancialData
+	- Step 3: Enter input value in input userFinancialData
+	- Step 4: Click on link navigation
+	- Step 5: Adjust div UserInvestmentStyle by input value
+	- Step 6: Click on link navigation
+	- Step 7: Adjust div userRequiredIncome by input value
+Step 8: Adjust div userRequiredIncome by input value
+Step 9: Adjust div userRequiredIncome by input value
+Step 10: Click on link navigation (SeeMyResultsArrow)
+Step 11: Click on link generatePDF (GeneratePDF) -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",Trivial,NEW
+14,Input Savings Goals in Financial Tools,"Use savings calculator, input goals multiple times, and verify the homepage.","Step 1: Navigate to *
+Step 2: Click on link toolsAndCalculators (ToolsAndCalculators) -> Navigate to page 'financial tools#*/*'
+Step 3: Hover over link SavingsCalculator
+Step 4: Click on button tryItOut (TryItOut2) -> Navigate to page 'financial tool#*/savingscalculator'
+Step 5: Click on div object
+Step 6: Click on div object2
+Step 7: Click on div financialGoals (NewHome)
+Step 8: Click on button navigation (Next)
+Step 9: Click on input NameYourGoal
+Step 10: Enter input value in input NameYourGoal
+Step 11: Enter input value in input NameYourGoal
+Step 12: Click on button navigation (Next2)
+Step 13: Click on input savingsGoals (HowMuchDoYouWantToSave)
+Step 14: Enter input value in input savingsGoals (HowMuchDoYouWantToSave)
+Step 15: Click on button navigation (Next3)
+Step 16: Click on input savingsGoals (HowMuchHaveYouAlready)
+Step 17: Enter input value in input savingsGoals (HowMuchHaveYouAlready)
+Step 18: Click on div object3
+Step 19: Click on button navigation (Next4)
+Step 20: Click on button navigation (SelectAnOption)
+Step 21: Click on div dynamicObject (object4)
+Step 22: Click on button navigation (SeeResults)
+Step 23: Hover over div object5
+Step 24: Click on div object6 -> Navigate to page ''
+Step 25: Take full page screenshot as checkpoint
 ",Trivial,NEW
