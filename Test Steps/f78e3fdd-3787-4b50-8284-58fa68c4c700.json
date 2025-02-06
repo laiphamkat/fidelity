@@ -1,0 +1,32 @@
+{
+    "steps": [
+        "step 1: Navigate to */taxsmartcalculator",
+        "step 2: Click on button addFunds",
+        "step 3: Click on input fundNameOrCode",
+        "step 4: Enter input value in input fundNameOrCode",
+        "step 5: Click on button object",
+        "step 6: Click on link taxSmartCalculator",
+        "step 7: Click on button addFunds",
+        "step 8: Click on button object2",
+        "step 9: Click on link investmentFinder -> Navigate to page 'product#*/products/*'",
+        "step 10: Click on link taxSmartCalculator -> Navigate to page 'calculator#*/taxsmartcalculator'",
+        "step 11: Click on button addFunds",
+        "step 12: Click on button object2",
+        "step 13: Click on span object",
+        "step 14: Click on input monthlyCashFlow",
+        "step 15: Click on label object",
+        "step 16: Click on button addFunds",
+        "step 17: Click on select category",
+        "step 18: Select option with input value from select category",
+        "step 19: Click on input fundNameOrCode2",
+        "step 20: Enter input value in input fundNameOrCode2",
+        "step 21: Click on input fidelityBalancedClass",
+        "step 22: Click on button addSelectedFunds",
+        "step 23: Click on input allocationPercentage",
+        "step 24: Enter input value in input allocationPercentage2",
+        "step 25: Click on select province",
+        "step 26: Select option with input value from select province",
+        "step 27: Click on button Calculate",
+        "step 28: Take full page screenshot as checkpoint"
+    ]
+}

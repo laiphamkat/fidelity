@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to */products/*",
+        "step 2: Click on md ETFs4",
+        "step 3: Click on md ManagedPortfolios8",
+        "step 4: Click on input SearchField",
+        "step 5: Enter input value in input SearchField",
+        "step 6: Click on item product",
+        "step 7: Enter input value in input SearchField",
+        "step 8: Click on item productOptions (option)",
+        "step 9: Click on span assetClass",
+        "step 10: Click on md selectOptions (selectOption)",
+        "step 11: Click on md backdrop",
+        "step 12: Click on span assetCategory",
+        "step 13: Click on md selectOptions (selectOption2)",
+        "step 14: Click on md backdrop",
+        "step 15: Click on span geographicFocus",
+        "step 16: Click on md selectOptions (selectOption3)",
+        "step 17: Click on md backdrop",
+        "step 18: Click on link viewFunds",
+        "step 19: Click on link addToWatchlist",
+        "step 20: Click on button close",
+        "step 21: Click on link viewFund -> Navigate to page 'product listing#*/products/*/*'",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}
